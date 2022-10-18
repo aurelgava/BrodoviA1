@@ -1,5 +1,7 @@
 package more;
 
-public class KraljevskiBrod {
-
+public class KraljevskiBrod extends Brod {
+    public KraljevskiBrod(String ime, int kapacitet, Mornar mornar) {
+        super(ime, kapacitet, mornar);
+    }
 }

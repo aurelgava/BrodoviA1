@@ -22,4 +22,7 @@ public class Mornar {
     public String toString(){
         return"M_"+s+" : "+ kvalitet;
     }
+    public int dohvatiKvalitet(){
+        return this.kvalitet;
+    }
 }

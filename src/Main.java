@@ -11,7 +11,7 @@ import more.*;
                 g1.dodajMorn(new Mornar("E", 60));
                 k1.dodajMorn(m4);
                 System.out.println("Broj mornara na gusarskom brodu: " + g1.dohvBr());
-                System.out.println("Kapetan gusarskog broda: " + g1.dohvatiKapetana());
+                /*System.out.println("Kapetan gusarskog broda: " + g1.dohvatiKapetana());
 
                 try {
                     System.out.println("Mornar kraljevskog broda na poziciji 1: " + k1.dohvMorn(1));
@@ -33,7 +33,7 @@ import more.*;
                 System.out.println(flota);
                 flota.dohvBrod(0).dodajMorn(new Mornar("G", 50));
                 System.out.println("*** Nakon obnove flote ***");
-                System.out.println(flota);
+                System.out.println(flota);*/
             } catch (Exception e) {
                 System.err.println(e);
             }

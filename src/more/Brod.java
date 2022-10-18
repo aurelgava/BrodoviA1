@@ -15,7 +15,14 @@ public class Brod {
         trenutnibr=1;
     }
     public void dodajMorn(Mornar m){
-        if()
+        if(mornars[0].dohvatiKvalitet()<m.dohvatiKvalitet()){
+            mornars[trenutnibr] = mornars[0];
+            mornars[0]=m;
+        }
+        else{
+            mornars[trenutnibr]=m;
+        }
+        trenutnibr++;
     }
 
     public int dohvBr() {

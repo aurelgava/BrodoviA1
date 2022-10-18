@@ -5,7 +5,7 @@ public class Brod {
     int kapacitet;
     Mornar[] mornars;
 
-    int trenutnibr;
+   private int trenutnibr;
 
     public Brod(String ime,int kapacitet, Mornar mornar) {
         mornars=new Mornar[kapacitet];
@@ -16,5 +16,9 @@ public class Brod {
     }
     public void dodajMorn(Mornar m){
         if()
+    }
+
+    public int dohvBr() {
+        return trenutnibr;
     }
 }

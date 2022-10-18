@@ -20,6 +20,5 @@ public class Brod {
 
     public int dohvBr() {
         return trenutnibr;
-
     }
 }

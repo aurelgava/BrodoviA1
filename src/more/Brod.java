@@ -7,11 +7,11 @@ public class Brod {
 
    private int trenutnibr;
 
-    public Brod(String ime,int kapacitet, Mornar mornar) {
+    public Brod(String ime,int kapacitet, Mornar kapetan) {
         mornars=new Mornar[kapacitet];
         this.ime=ime;
         this.kapacitet=kapacitet;
-        this.mornars[0]=mornar;
+        this.mornars[0]=kapetan;
         trenutnibr=1;
     }
     public void dodajMorn(Mornar m){
@@ -27,5 +27,9 @@ public class Brod {
 
     public int dohvBr() {
         return trenutnibr;
+    }
+
+    public Mornar dohvatiKapetana() {
+        return mornars[0];
     }
 }
